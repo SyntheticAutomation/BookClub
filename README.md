@@ -1,7 +1,7 @@
 # BookClub
 Turing Back End Engineering Program - Module 2 - Project 2
 
-Background and Description
+### Background and Description
 This purpose of this application is for users to browse and review books. The primary goal of this challenge is testing your ability to set up many-to-many relationships and accessing attributes through multiple models.
 
 Learning Goals for this Project
