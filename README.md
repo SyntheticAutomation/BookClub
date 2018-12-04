@@ -36,7 +36,7 @@ This purpose of this application is for users to browse and review books. The pr
 
 These user stories may be worked on in any order that makes sense to your team. The most optimal order may not be a top-to-bottom approach.
 
-View [User Stories](User_Stories.md)
+View [User Stories](https://github.com/turingschool-projects/BookClub/blob/master/User_Stories.md)
 
 
 ## Extensions
