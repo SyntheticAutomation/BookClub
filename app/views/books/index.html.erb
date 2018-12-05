@@ -1,0 +1,6 @@
+<h1>Welcome!</h1>
+  <% @books.each do |book| %>
+    <p> <%= "Title: #{book.title}" %></p>
+    <p> <%= "Pages: #{book.pages}" %></p>
+    <p> <%= "Year Published: #{book.year_published}" %></p>
+  <% end %>
