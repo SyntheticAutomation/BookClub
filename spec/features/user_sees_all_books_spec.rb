@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'A visitor to our web app' do
-  describe 'when I visit the books index page' do
+  describe 'when I visit the books index page (User Story 6)' do
     before(:each) do
     book_1 = Book.create(title: Faker::Book.title, authors: Faker::Book.author, pages: Faker::Number.number(3), publish_year: Faker::Stripe.year)
     book_2 = Book.create(title: Faker::Book.title, authors: Faker::Book.author, pages: Faker::Number.number(3), publish_year: Faker::Stripe.year)
