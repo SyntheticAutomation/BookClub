@@ -12,6 +12,10 @@ describe 'A visitor to our web app' do
       expect(page).to have_content("Title: #{@book_1.title}")
       expect(page).to have_content("Pages: #{@book_1.pages}")
       expect(page).to have_content("Year Published: #{@book_1.year_published}")
+
+      expect(page).to have_content("Title: #{@book_2.title}")
+      expect(page).to have_content("Pages: #{@book_2.pages}")
+      expect(page).to have_content("Year Published: #{@book_2.year_published}")
     end
   end
 end
