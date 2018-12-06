@@ -3,5 +3,13 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
   root 'welcome#index'
-  resources :books, only: [:index]
+  resources :books, only: [:index] do
+    resources :reviews, only: [:index] do
+    end
+  end
+  resources :users, only: [:show] do
+    resources :reviews, only: [:index] do
+    end
+  end
+
 end
