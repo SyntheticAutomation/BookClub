@@ -20,11 +20,23 @@ a {
 }
 .jumbotron h1 {
   font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
-  font-size: 150px;
+  font-size: 120px;
 }
 .jumbotron p{
   font-family: 'Cinzel', serif;
   font-size: 32px;
+}
+.right {
+  display: inline-block;
+  float: right;
+  clear: right;
+  padding-top: 80px;
+}
+.left {
+  display: inline-block;
+  float: left;
+  clear: left;
+  padding-top: 80px;
 }
 nav li {
   display: inline-block;
